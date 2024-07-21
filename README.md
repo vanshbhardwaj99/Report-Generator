@@ -24,13 +24,13 @@ NOTE: The sample input and reference file is attached in src/main/resources/stat
 
 This project mainly exposes 2 APIs:
 
-1) API Design : http://127.0.0.1:8080/upload/ 
+1) API Design : http://127.0.0.1:8080/upload/ ,
 HTTP: POST, 
-Body: Array of CSV/JSON files
+Body: Array of CSV/JSON files,
 Postman CURL : curl --location 'http://127.0.0.1:8080/upload/' \
 --form 'file=@"/path/to/file"'
 
-2) API Design : http://127.0.0.1:8080/reports/
+2) API Design : http://127.0.0.1:8080/reports/ ,
 HTTP: GET, 
 Postman CURL : curl --location 'http://127.0.0.1:8080/reports/generate'
 
