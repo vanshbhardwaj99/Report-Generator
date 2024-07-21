@@ -20,13 +20,13 @@ import java.io.IOException;
 public class MongoConfig {
 
     @Value("${mongodb.application.url}")
-    private String url;
+    protected String url;
 
     @Value("${mongodb.application.dbName}")
-    private String dbName;
+    protected String dbName;
 
     @Value("${mongodb.application.port}")
-    private int port;
+    protected int port;
 
     @Bean(initMethod = "start", destroyMethod = "stop")
     public MongodExecutable mongodExecutable() throws IOException {
