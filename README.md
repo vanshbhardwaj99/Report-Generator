@@ -32,5 +32,5 @@ Postman CURL : curl --location 'http://127.0.0.1:8080/upload/' \
 
 2) API Design : http://127.0.0.1:8080/reports/ ,
 HTTP: GET, 
-Postman CURL : curl --location 'http://127.0.0.1:8080/reports/generate'
+Postman CURL : curl --location 'http://127.0.0.1:8080/reports/'
 
