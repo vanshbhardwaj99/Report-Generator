@@ -25,7 +25,7 @@ public class ReportEntryPoint {
     @Autowired
     private ReportService reportService;
 
-    @GetMapping("/generate")
+    @GetMapping("/")
     public ResponseEntity<String> generateReport() {
 
         logger.info("generating report");
