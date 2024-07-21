@@ -1,4 +1,4 @@
-Report Generator
+# Report Generator
 
 Report generator is a Java spring boot based microservice that can ingest CSV/JSON files, apply transformation rules, and generate reports. It has the following features:
 
